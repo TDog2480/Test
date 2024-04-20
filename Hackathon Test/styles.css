@@ -1,0 +1,63 @@
+/* This is the stylesheet page! CSS stands for cascading styles sheet */
+/* There are a few ways to style certain html elements  */
+/* The first way is to style based off of the type of html element */
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    background-color: black;
+    font-size: 20px;
+    padding: 0 1vw;
+}
+
+/* The code above demonstrates how to style all elements with this tag. Note the syntax: The type of tag comes first, followed by curly brackets that have the specific properties, such as the height and width */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border-color: black;
+    color: #edfcd9;
+    background-color: rgb(11, 132, 67);
+    font-family: monospace;
+    border-radius: 0.7vw;
+}
+
+.text {
+    font-family: Verdana;
+    color: #edfcd9;
+}
+
+#link:hover {
+    background-color: #0eaa90;
+}
+
+#ul {
+    list-style-type: none; /* Removes the default bullet points from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow: hidden; /* Ensures that any content that exceeds the width of the container is hidden */
+    position: fixed; /* Positions the element relative to the browser window */
+    top: 0; /* Positions the element 1 pixel from the top of the browser window */
+    left: 0;
+    width: 100%; /* Sets the width of the element to 100% of its container */
+    background-color: #0eaa90; /* Sets the background color to whatever */
+}
+
+.li {
+    float: left; /* Shifts the elements to left which puts them on one line */
+}
+
+.li-a {
+    display: block; /* Makes the list items behave as block-level elements */
+    margin: 0 20vw; /* Sets the margin to 0 pixels on the top and bottom, and 20% of the viewport width on the left and right */
+    padding: 8px; /* Adds 8 pixels of padding inside the list items */
+    color: #edfcd9; /* Sets the text color to mintcream */
+    background-color: #0eaa90; /* Sets the background color to aquamarine */
+    text-decoration: none;
+}

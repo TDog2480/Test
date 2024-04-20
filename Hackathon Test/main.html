@@ -1,0 +1,119 @@
+<!--Start off by explaining the syntax of html (how tags work, comments, stuff like that) explain good practice, like indenting-->
+
+<!DOCTYPE html> <!--Tells browser that the document type will be in html-->
+<html> <!--This signifies that the code within is in html and converts the code to webpage-->
+    <head> <!--This contains the metadata, which is the data about the website, such as the title-->
+        <title>About Me!</title> <!--This titles the actual browser tab, at this point they can run the code and see for themselves-->
+        <link rel="stylesheet" href="styles.css"> <!--This is how you link your stylesheet to the html code so that the code knows to reference this page. Also, rel describes the connection between the two pages, and it HAS to be stylesheet. The href assigns the link, which is the file path that we have already decided (SKIP FOR NOW)-->
+    </head>
+    <body> <!--As the name suggests, this contains all the code that will physically appear on the webpage-->
+        <!--
+            <h1> <!- -This provides a heading - the number corresponds to the size; 1 = biggest there are six levels Headings are always bolded- ->
+                Echo   
+            </h1>
+            <h2> <!- -Idk do something cringe like this - ->
+                Echo
+            </h2>
+            <h3>
+                Echo
+            </h3>
+            <h4>
+                Echo
+            </h4>
+            <h5>
+                Echo
+            </h5>
+            <h6>
+                Echo
+            </h6>
+        -->
+        <ul id="ul">
+            <li class="li"><a class="li-a" href="main.html">Home</a></li>
+            <li class="li"><a class="li-a" href="secondpage.html">Second Page</a></li>
+        </ul>
+        <br>
+        <h1 class="text">About Me!</h1>
+        <h2 class="text">General Information</h2> <!--The p in this tag stands for paragraph, use this tag for normal text on your website--> 
+        <p class="text">Hi, my name is John Smith and I love coding! Also, I spend my free time biking, watching Netflix, and playing soccer.</p>
+        <br> <!--This tag adds extra space in between two lines of text-->
+        <h2 class="text">My Favorite Activities</h2>
+        <img src="biking.jpeg"> <!--This tag is a little bit different, as it doesn't have a closing tag, to put the image in, we will download an image and put the link inside the tag-->
+        <br>
+        <a class="text" id="link" href="https://www.netflix.com/browse/genre/83">Check out some Netflix shows!</a> <!--This tag is the a tag, and with it we can link websites or ever other pages on our website. To do so, include an href followed by the link of the website-->
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Association_football">
+            <img src="soccer.webp" width = 200px height = auto> <!--We can combine the img and a tag together to create a image that is also a link by doing this!-->
+        </a>
+        <br>
+        <p class="text">The image above is also a link!</p>
+        <br>
+        <br>
+        <table border = "1"> <!--If we want to add a table we can use the table tag-->
+            <tr> <!--To add our first row, we will use the tr tag-->
+                <th> <!--To make the row a header row, we can use the th tag-->
+                    Favorite Songs
+                </th>
+                <th>
+                    Favorite Foods
+                </th>  
+                <th>
+                    Favorite Games
+                </th>              
+            </tr>
+            <tr> <!--For each new row add another tr tag-->
+                <td> <!--For data that you add that isn't a heading used td-->
+                    <a href="https://open.spotify.com/search">Spotify</a>
+                </td>
+                <td>
+                    <a href="https://www.cnn.com/travel/article/world-best-food-dishes/index.html">Food</a>
+                </td>  
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best">Games</a>
+                </td>              
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+        
+        <p class="text">To Do List</p>
+        <ul class="text"> <!--If we want to create an unordered, or bulleted, list of items, use the ul tag-->
+            <li> <!--Within the ul tag, for each item, use the li tag-->
+                Laundry
+            </li>
+            <li>
+                Dishes
+            </li>
+            <li>
+                Clean bedroom
+            </li>
+            <li>
+                Take out trash
+            </li>
+        </ul>
+        <p class="text">Top 4 Most Common Letters</p>
+        <ol class="text"> <!--Similarly, if we want to create an ordered, or numbered, list of items, use the ol tag-->
+            <li> <!--Within the ol tag, for each item, use the li tag as well-->
+                E
+            </li>
+            <li>
+                T
+            </li>
+            <li>
+                A
+            </li>
+            <li>
+                O
+            </li>
+        </ol>
+        <br>
+        <a class="text" id="link" href="mailto:mittal1245@students.d211.org">If you have any questions, email me here!</a>
+        <br>
+    </body>
+    <!--This is a good start, but right now our website is looking kinda bland. Let's fix that!-->
+</html>
